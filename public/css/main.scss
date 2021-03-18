@@ -1,0 +1,53 @@
+html,
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    .header{
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        .heading{
+            font-weight: 100;
+            filter: brightness(140%);
+            color: rgb(252, 250, 150);
+            sub{
+                filter: brightness(20%);
+            }
+        }
+    }
+    .main{
+        width: 100%;
+        background-color: black;
+        padding-top: 5px;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+        height: 50px;
+        color: white;
+        width: 100%;
+        background-color: black;
+        padding-top: 5px;
+        .copyright{
+            width: 90%;
+            margin: 0 18% 0 2%;
+        }
+    }
+}

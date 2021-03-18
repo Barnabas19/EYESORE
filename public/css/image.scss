@@ -1,0 +1,92 @@
+html,
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.images{
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    .anchor{
+        display: block;
+        width: 40%;
+        margin: 100px 58% 0 2%;
+        height: 40px;
+        .button{
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            text-align: left;
+            background-color: rgb(255, 247, 204);
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .button:hover{
+            color: white;
+            background-color: rgb(255, 115, 0);
+        }
+    }
+    .media-list{
+        width: 100%;
+        padding-bottom: 10px;
+        .list-item{
+            width: 90%;
+            margin: 15px 8% 100px 2%;
+            height: 300px;
+            .image{
+                width: 100%;
+                height: 80%;
+            }
+            .name{
+                width: 100%;
+                color:  rgb(255, 247, 204);
+                margin-top: 5px;
+            }
+            .description{
+                width: 100%;
+                color:  rgb(255, 247, 204);
+                margin-top: 10px;
+            }
+            .author{
+                width: 100%;
+                color:  rgb(255, 247, 204);
+                margin-top: 10px;
+            }
+            .time{
+                width: 100%;
+                color:  rgb(255, 247, 204);
+                margin-top: 2px;
+            }
+        }
+    }
+    .notice{
+        color: rgb(5, 180, 180);
+        font-style: italic;
+        width: 98%;
+        margin-left: 2%;
+    }
+    .back-anchor{
+        display: block;
+        width: 20%;
+        margin: 100px 78% 0 2%;
+        height: 40px;
+        .back-button{
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            text-align: left;
+            background-color: rgb(255, 247, 204);
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .back-button:hover{
+            color: white;
+            background-color: rgb(255, 115, 0);
+        }
+    }
+}

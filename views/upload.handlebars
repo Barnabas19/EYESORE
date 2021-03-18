@@ -1,0 +1,28 @@
+<div class="upload-section">
+    <p class="upload-paragraph">{{paragraph}}</p>
+    <form action="/new-image" method="post" enctype="multipart/form-data" class="upload-form">
+        <label for="file" class="upload-label">Choose file</label>
+        <input type="file" name="file" id="file" class="upload-input">
+
+        <label for="name" class="upload-label">Picture caption</label>
+        <input type="text" name="name" id="name" placeholder="Name of photo" class="upload-input">
+
+        <label for="description" class="upload-label">Image description</label>
+        <textarea name="description" id="description" class="upload-input"></textarea>
+
+        <label for="category" class="upload-label">Select Category</label>
+        <select name="category" id="category" class="upload-input">
+            <option value="ALL CATEGORIES">ALL CATEGORIES</option>
+            <option value="MOUNTAINS">MOUNTAINS</option>
+            <option value="OCEAN LIFE">OCEAN LIFE</option>
+            <option value="THE WILD">THE WILD</option>
+            <option value="SPACE">SPACE</option>
+            <option value="PEOPLE">PEOPLE</option>
+        </select>
+
+        <label for="author" class="upload-label">Author</label>
+        <input type="text" name="author" id="author" placeholder="Your name" class="upload-input">
+
+        <input type="submit" value="submit" class="form-submit">
+    </form>
+</div>

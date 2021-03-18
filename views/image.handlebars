@@ -1,0 +1,20 @@
+<div class="images">
+    <a href={{ route }} class="back-anchor">
+        <button class="back-button">{{ location }}</button>
+    </a>
+    <a href="/upload" class="anchor">
+        <button class="button">Upload an image</button>
+    </a>
+    <p class="notice">{{ notice }}</p>
+    <ul class="media-list">
+        {{#each images}}
+        <li class="list-item">
+            <img src="../public/upload/{{ filename }}" alt="imagine" class="image">
+            <p class="name">{{ name }}</p>
+            <p class="description">{{ description }}</p>
+            <p class="author">Author: {{ author }}</p>
+            <p class="time">{{ timeago timestamp }}</p>
+        </li>
+        {{/each}}
+    </ul>
+</div>

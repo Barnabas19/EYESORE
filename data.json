@@ -1,0 +1,37 @@
+[
+    {
+        "filename": "Barnabas.jpg",
+        "name": "Barnabas Babatunde",
+        "description": "Behold the smartest programmer ever",
+        "category": "PEOPLE",
+        "author": "Admin"
+    },
+    {
+        "filename": "Bar.jpg",
+        "name": "Bar Arafah",
+        "description": "Behold the smartest programmer ever",
+        "category": "PEOPLE",
+        "author": "Admin"
+    },
+    {
+        "filename": "John.jpg",
+        "name": "John Doe",
+        "description": "Behold the smartest programmer ever",
+        "category": "PEOPLE",
+        "author": "Admin"
+    },
+    {
+        "filename": "Barry.jpg",
+        "name": "Barry Bee",
+        "description": "Behold the smartest programmer ever",
+        "category": "PEOPLE",
+        "author": "Admin"
+    },
+    {
+        "filename": "Ade.jpg",
+        "name": "Adee Bee",
+        "description": "Behold the smartest programmer ever",
+        "category": "PEOPLE",
+        "author": "Admin"
+    }
+]
