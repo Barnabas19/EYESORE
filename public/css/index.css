@@ -57,4 +57,50 @@ html,
   color: white;
   background-color: #ff7300;
 }
+
+@media only screen and (min-width: 700px) {
+  .content {
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    margin-top: 100px;
+  }
+  .content .text {
+    width: 90%;
+    margin: 30px 8% 20px 2%;
+    color: #4c4c4c;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .content .form {
+    color: white;
+    width: 30%;
+    margin-left: 1.5%;
+  }
+  .content .form .label {
+    display: block;
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 8%;
+  }
+  .content .form #select {
+    width: 70%;
+    margin: 15px 28% 0 2%;
+    height: 40px;
+  }
+  .content .form .submit {
+    width: 20%;
+    margin: 10px 78% 0 2%;
+    height: 30px;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fff7cc;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .content .form .submit:hover {
+    color: white;
+    background-color: #ff7300;
+  }
+}
 /*# sourceMappingURL=index.css.map */

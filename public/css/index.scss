@@ -51,3 +51,49 @@ html,
         }
     }
 }
+@media only screen and (min-width: 700px){
+    
+.content{
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    margin-top: 100px;
+    .text{
+        width: 90%;
+        margin: 30px 8% 20px 2%;
+        color: rgb(76, 76, 76); 
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .form{
+        color: white;
+        width: 30%;
+        margin-left: 1.5%;
+        .label{
+            display: block;
+            width: 90%;
+            margin-left: 2%;
+            margin-right: 8%;
+        }
+        #select{
+            width: 70%;
+            margin: 15px 28% 0 2%;
+            height: 40px;
+        }
+        .submit{
+            width: 20%;
+            margin: 10px 78% 0 2%;
+            height: 30px;
+            font-size: 18px;
+            text-align: left;
+            background-color: rgb(255, 247, 204);
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .submit:hover{
+            color: white;
+            background-color: rgb(255, 115, 0);
+        }
+    }
+}
+}

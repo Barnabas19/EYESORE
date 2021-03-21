@@ -60,4 +60,52 @@ html,
   color: white;
   background-color: #ff7300;
 }
+
+@media only screen and (min-width: 700px) {
+  .upload-section {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .upload-section .upload-paragraph {
+    width: 99.5%;
+    margin: 0 0 0 0.5%;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+  .upload-section .upload-form {
+    width: 30%;
+  }
+  .upload-section .upload-form .upload-label {
+    display: block;
+    width: 98%;
+    margin-left: 2%;
+  }
+  .upload-section .upload-form .upload-input {
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 38%;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .upload-section .upload-form .form-submit {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 73%;
+    height: 30px;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fff7cc;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 600px;
+  }
+  .upload-section .upload-form .form-submit:hover {
+    color: white;
+    background-color: #ff7300;
+  }
+}
 /*# sourceMappingURL=upload.css.map */

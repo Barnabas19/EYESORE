@@ -105,4 +105,89 @@ html,
   color: white;
   background-color: #ff7300;
 }
+
+@media only screen and (min-width: 700px) {
+  .images {
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+  }
+  .images .anchor {
+    display: block;
+    width: 10%;
+    margin: 50px 58% 0 2%;
+    height: 40px;
+  }
+  .images .anchor .button {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff7cc;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .images .anchor .button:hover {
+    color: white;
+    background-color: #ff7300;
+  }
+  .images .media-list {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .images .media-list .list-item {
+    width: 40%;
+    margin: 15px 58% 100px 2%;
+    height: 300px;
+  }
+  .images .media-list .list-item .image {
+    width: 100%;
+    height: 80%;
+  }
+  .images .media-list .list-item .name {
+    width: 100%;
+    color: #fff7cc;
+    margin-top: 5px;
+  }
+  .images .media-list .list-item .description {
+    width: 100%;
+    color: #fff7cc;
+    margin-top: 10px;
+  }
+  .images .media-list .list-item .author {
+    width: 100%;
+    color: #fff7cc;
+    margin-top: 10px;
+  }
+  .images .media-list .list-item .time {
+    width: 100%;
+    color: #fff7cc;
+    margin-top: 2px;
+  }
+  .images .notice {
+    color: #05b4b4;
+    font-style: italic;
+    width: 98%;
+    margin-left: 2%;
+  }
+  .images .back-anchor {
+    display: block;
+    width: 5%;
+    margin: 100px 93% 0 2%;
+    height: 40px;
+  }
+  .images .back-anchor .back-button {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff7cc;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .images .back-anchor .back-button:hover {
+    color: white;
+    background-color: #ff7300;
+  }
+}
 /*# sourceMappingURL=image.css.map */
