@@ -14,7 +14,7 @@ app = config(app)  //CONFIGURE MY APP
 
 //CONNECTING TO THE MONGODB SERVER
 //replace ........... with process.env.DB_URL
-mongoose.connect("mongodb://localhost/eyeSore");
+mongoose.connect(process.env.DB_URL);
 mongoose.connection.on('open', function(){
     console.log('Mongoose is connected.');
 });
