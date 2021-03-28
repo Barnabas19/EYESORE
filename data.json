@@ -1,37 +1,37 @@
 [
     {
-        "filename": "Barnabas.jpg",
-        "name": "Barnabas Babatunde",
-        "description": "Behold the smartest programmer ever",
+        "filename": "Andrew Donovan.jpg",
+        "name": "Andrew Donovan",
+        "description": "The first step to be a good man is this: You must deeply feel the burden of the stones some else is carrying - Mehmet Murat Ildan.",
         "category": "PEOPLE",
-        "author": "Admin"
+        "author": "Andrew"
     },
     {
-        "filename": "Bar.jpg",
-        "name": "Bar Arafah",
-        "description": "Behold the smartest programmer ever",
+        "filename": "Raymond Chrysler.jpg",
+        "name": "Raymond Chrysler",
+        "description": "A man does what he must - in spite of personal consequencies, in spite of obstacles and dangers and pressures - and that is the basis of all human morality - President John F. Kennedy.",
         "category": "PEOPLE",
-        "author": "Admin"
+        "author": "Raymond"
     },
     {
-        "filename": "John.jpg",
-        "name": "John Doe",
-        "description": "Behold the smartest programmer ever",
+        "filename": "Antonia Valdez.jpg",
+        "name": "Antonia Valdez",
+        "description": "Here's to strong women: may we know them, may we be them, may we raise them - Anonymous.",
         "category": "PEOPLE",
-        "author": "Admin"
+        "author": "Antonia"
     },
     {
-        "filename": "Barry.jpg",
-        "name": "Barry Bee",
-        "description": "Behold the smartest programmer ever",
+        "filename": "Folashade Adeleke.jpg",
+        "name": "Folashade Adeleke",
+        "description": "You educate a man; you educate a man. You educate a woman; you educate a generation - Brigham Young.",
         "category": "PEOPLE",
-        "author": "Admin"
+        "author": "Shade"
     },
     {
-        "filename": "Ade.jpg",
-        "name": "Adee Bee",
-        "description": "Behold the smartest programmer ever",
+        "filename": "Lupita Bronsted.jpeg",
+        "name": "Lupita Bronsted",
+        "description": "As a woman I have no country. As a woman I want no country. As a woman, my country is the whole world - Virginia Woolf.",
         "category": "PEOPLE",
-        "author": "Admin"
+        "author": "Lupita"
     }
 ]

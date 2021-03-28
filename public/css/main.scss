@@ -33,7 +33,7 @@ html,
     }
     .main{
         width: 100%;
-        background-color: black;
+        background: black;
         padding-top: 5px;
     }
     .footer{
@@ -48,6 +48,7 @@ html,
         .copyright{
             width: 90%;
             margin: 0 18% 0 2%;
+            opacity: 0.5;
         }
     }
 }

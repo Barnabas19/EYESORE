@@ -10,7 +10,10 @@ html,
 }
 
 .upload-section {
-  background-color: black;
+  background: url("../img/globe.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: white;
   width: 100%;
   margin-top: 100px;
@@ -19,7 +22,7 @@ html,
 .upload-section .upload-paragraph {
   width: 98%;
   margin-left: 2%;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
   opacity: 0.6;
   margin-bottom: 10px;
@@ -32,6 +35,7 @@ html,
 .upload-section .upload-form .upload-label {
   display: block;
   width: 98%;
+  opacity: 0.8;
   margin-left: 2%;
 }
 
@@ -40,7 +44,9 @@ html,
   margin-left: 2%;
   margin-right: 38%;
   height: 40px;
+  opacity: 0.8;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .upload-section .upload-form .form-submit {
@@ -51,8 +57,7 @@ html,
   font-size: 18px;
   text-align: left;
   background-color: #fff7cc;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-radius: 7px;
   margin-bottom: 600px;
 }
 
@@ -63,33 +68,41 @@ html,
 
 @media only screen and (min-width: 700px) {
   .upload-section {
-    background-color: black;
+    background: url("../img/globe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     width: 100%;
     margin-top: 100px;
+    padding-top: 50px;
   }
   .upload-section .upload-paragraph {
     width: 99.5%;
     margin: 0 0 0 0.5%;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     opacity: 0.6;
     margin-bottom: 10px;
   }
   .upload-section .upload-form {
-    width: 30%;
+    width: 60%;
   }
   .upload-section .upload-form .upload-label {
     display: block;
     width: 98%;
     margin-left: 2%;
+    opacity: 0.8;
+    font-size: 22px;
   }
   .upload-section .upload-form .upload-input {
-    width: 60%;
+    width: 98%;
     margin-left: 2%;
-    margin-right: 38%;
+    margin-right: 0;
     height: 40px;
     margin-bottom: 20px;
+    border-radius: 15px;
+    opacity: 0.8;
   }
   .upload-section .upload-form .form-submit {
     width: 25%;
@@ -97,10 +110,9 @@ html,
     margin-right: 73%;
     height: 30px;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     background-color: #fff7cc;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 600px;
   }
   .upload-section .upload-form .form-submit:hover {
