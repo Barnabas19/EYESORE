@@ -21,6 +21,7 @@ html,
 }
 
 .content .text {
+  display: none;
   width: 90%;
   margin: 30px 8% 20px 2%;
   color: #dad6d6;
@@ -29,6 +30,7 @@ html,
 }
 
 .content .form {
+  display: none;
   color: white;
   width: 100%;
 }
@@ -73,6 +75,7 @@ html,
     margin-top: 100px;
   }
   .content .text {
+    display: none;
     width: 90%;
     margin: 30px 8% 20px 2%;
     color: #dad6d6;
@@ -80,6 +83,7 @@ html,
     font-weight: 200;
   }
   .content .form {
+    display: none;
     color: white;
     width: 30%;
     margin-left: 1.5%;

@@ -33,5 +33,40 @@
         "description": "As a woman I have no country. As a woman I want no country. As a woman, my country is the whole world - Virginia Woolf.",
         "category": "PEOPLE",
         "author": "Lupita"
+    },
+    {
+        "filename": "Anita Sandoval.jpg",
+        "name": "Anita Sandoval",
+        "description": "The universe is under no obligation to make sense to you - Neil deGrasse Tyson.",
+        "category": "SPACE",
+        "author": "Anita"
+    },
+    {
+        "filename": "Barnabas Babatunde.jpg",
+        "name": "Barnabas Babatunde",
+        "description": "When you're getting ready to launch into space, you're sitting on a big explosion waiting to happen",
+        "category": "SPACE",
+        "author": "Barnabas"
+    },
+    {
+        "filename": "Adewale Ojo.jpg",
+        "name": "Adewale Ojo",
+        "description": "When you look at the stars and the galaxy, you feel that you are not just from any particular piece of land, but from the solar system - Kalpana Chawla",
+        "category": "SPACE",
+        "author": "Adewale"
+    },
+    {
+        "filename": "Tommy Chen.jpg",
+        "name": "Tommy Chen",
+        "description": "I think the universe is pure geometry - basically, a beautiful shape twisting around and dancing over space-time - Anthony Garrett Lisi.",
+        "category": "SPACE",
+        "author": "Tommy"
+    },
+    {
+        "filename": "Joseph Banks.jpg",
+        "name": "Joseph Banks",
+        "description": "Space is not remote at all. It's only an hour's drive away if your car could go straight upwards",
+        "category": "SPACE",
+        "author": "Joseph"
     }
 ]

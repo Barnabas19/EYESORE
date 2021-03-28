@@ -9,16 +9,28 @@ module.exports = {
             route: '/',
             location: 'back'
         }
-        ImageModel.find(
-            {category: req.body.category}, {}, {sort: {timestamp: -1}},
-            function(err, images){
-                if(err){
-                    throw err;
+        if(req.body.category === "ALL CATEGORIES"){
+            ImageModel.find({}, {}, {sort: {timestamp: -1}},
+                function(err, images){
+                    if(err){
+                        throw err;
+                    }
+                    viewModel.images = images;
+                    res.render('image', viewModel);
                 }
-                viewModel.images = images;
-                res.render('image', viewModel);
-            }
-        )
+            );
+        }else{
+            ImageModel.find(
+                {category: req.body.category}, {}, {sort: {timestamp: -1}},
+                function(err, images){
+                    if(err){
+                        throw err;
+                    }
+                    viewModel.images = images;
+                    res.render('image', viewModel);
+                }
+            )
+        }
     },
     showRecentImage(req, res){
         var viewModel = {

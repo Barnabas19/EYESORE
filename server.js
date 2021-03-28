@@ -13,7 +13,7 @@ app.set('views', `${__dirname}/views`);
 app = config(app)  //CONFIGURE MY APP
 
 //CONNECTING TO THE MONGODB SERVER
-//replace ........... with process.env.DB_URL
+//replace "mongodb://localhost:27017/eyeSore"...........with process.env.DB_URL
 mongoose.connect(process.env.DB_URL);
 mongoose.connection.on('open', function(){
     console.log('Mongoose is connected.');
