@@ -25,6 +25,7 @@ html,
     }
     .upload-form{
         width: 100%;
+        display: none;
         .upload-label{
             display: block;
             width: 98%;
@@ -79,6 +80,7 @@ html,
     }
     .upload-form{
         width: 60%;
+        display: none;
         .upload-label{
             display: block;
             width: 98%;
@@ -92,7 +94,7 @@ html,
             margin-right: 0;
             height: 40px;
             margin-bottom: 20px;
-            border-radius: 15px;
+            border-radius: 5px;
             opacity: 0.8;
         }
         .form-submit{
